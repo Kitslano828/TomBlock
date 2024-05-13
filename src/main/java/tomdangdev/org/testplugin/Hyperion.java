@@ -5,7 +5,9 @@ import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
+import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
@@ -46,6 +48,9 @@ public class Hyperion implements CommandExecutor {
         hyperionLore.add("");
         hyperionLore.add(ChatColor.GOLD.BOLD + "LEGENDARY DUNGEON SWORD");
 
+        hyperionMeta.setLore(hyperionLore);
+        hyperionMeta.addEnchant(Enchantment.DAMAGE_ALL, 5, true);
+        hyperionMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         hyperionSword.setItemMeta(hyperionMeta);
 
         return hyperionSword;
