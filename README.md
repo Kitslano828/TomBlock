@@ -1,7 +1,7 @@
 <h1>Overview</h1> 
 <h3>This java project will create a minecraft game mode VERY similar to Hypixel Skyblock</h3>
 <br>
-Obviously inspired by Hypixel Skyblock (Their ip is hypixel.net)
+Obviously inspired by Hypixel Skyblock (Their IP is hypixel.net)
 <br>
 <h1>Mechanics of the game mode:</h1>
 <ul>
