@@ -1,0 +1,4 @@
+name: TestPlugin
+version: '${project.version}'
+main: tomdangdev.org.testplugin.main
+api-version: '1.20'
