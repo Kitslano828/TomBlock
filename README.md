@@ -4,10 +4,12 @@
 Obviously inspired by Hypixel Skyblock (Their ip is hypixel.net)
 <br>
 <h1>Mechanics of the game mode:</h1>
-Custom item stats <br>
-Custom abilities <br>
-Custom items <br>
-Changes to the core mechanics of minecraft
+<ul>
+  <li>Custom Item Stats</li>
+  <li>Custom Player Abilities</li>
+  <li>Custom Items</li>
+  <li>Changes to the Core MEchanics of Minecraft</li>
+</ul>
 <br>
 <br>
 <h1>Project Contributors:</h1>
