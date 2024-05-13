@@ -10,6 +10,6 @@ Custom items <br>
 Changes to the core mechanics of minecraft
 <br>
 <br>
-<h1>Project Contributors:</h1> <br>
+<h1>Project Contributors:</h1>
 Jimmy Yang (NA) <br>
 Tom Dang (Kitslano828) <br>
