@@ -8,7 +8,7 @@ Obviously inspired by Hypixel Skyblock (Their ip is hypixel.net)
   <li>Custom Item Stats</li>
   <li>Custom Player Abilities</li>
   <li>Custom Items</li>
-  <li>Changes to the Core MEchanics of Minecraft</li>
+  <li>Changes to the Core Mechanics of Minecraft</li>
 </ul>
 <br>
 <br>
