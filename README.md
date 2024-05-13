@@ -13,5 +13,18 @@ Obviously inspired by Hypixel Skyblock (Their ip is hypixel.net)
 <br>
 <br>
 <h1>Project Contributors:</h1>
-Jimmy Yang (NA) <br>
-Tom Dang (Kitslano828) <br>
+<ul>
+  <li>
+    Tom Dang (kitslano828)
+    <ul>
+      <li>Developer</li>
+      <li>Idea Contributor</li>
+    </ul>
+  </li>
+  <li>
+    Jimmy Yang (NA)
+    <ul>
+      <li>Idea Contributor</li>
+    </ul>
+  </li>
+</ul>
