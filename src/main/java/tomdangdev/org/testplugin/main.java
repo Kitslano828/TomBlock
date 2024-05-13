@@ -1,13 +1,13 @@
 package tomdangdev.org.testplugin;
 
+import org.bukkit.command.CommandExecutor;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        getCommand("Hyperion").setExecutor(new Hyperion());
     }
 
     @Override
