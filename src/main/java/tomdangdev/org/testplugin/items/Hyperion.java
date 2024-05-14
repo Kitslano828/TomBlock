@@ -2,6 +2,8 @@ package tomdangdev.org.testplugin.items;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
+import org.bukkit.attribute.Attribute;
+import org.bukkit.attribute.AttributeModifier;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -12,6 +14,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
+import java.util.UUID;
 
 public class Hyperion implements CommandExecutor {
     @Override
@@ -48,10 +51,19 @@ public class Hyperion implements CommandExecutor {
         hyperionLore.add("");
         hyperionLore.add(ChatColor.GOLD.BOLD + "LEGENDARY DUNGEON SWORD");
 
+        hyperionMeta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
+        // Add attribute modifier for attack damage
+        AttributeModifier damageModifier = new AttributeModifier(UUID.randomUUID(), "generic.attack_damage", 260, AttributeModifier.Operation.ADD_NUMBER);
+        hyperionMeta.addAttributeModifier(Attribute.GENERIC_ATTACK_DAMAGE, damageModifier);
+
+
+
         hyperionMeta.setLore(hyperionLore);
         hyperionMeta.addEnchant(Enchantment.DAMAGE_ALL, 5, true);
         hyperionMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         hyperionSword.setItemMeta(hyperionMeta);
+
+
 
         return hyperionSword;
     }

@@ -4,3 +4,4 @@ main: tomdangdev.org.testplugin.main
 api-version: '1.20'
 commands:
   hyperion:
+  ghost:
