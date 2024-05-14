@@ -1,4 +1,4 @@
-package tomdangdev.org.testplugin;
+package tomdangdev.org.testplugin.items;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;

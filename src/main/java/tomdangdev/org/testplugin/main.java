@@ -1,7 +1,7 @@
 package tomdangdev.org.testplugin;
 
-import org.bukkit.command.CommandExecutor;
 import org.bukkit.plugin.java.JavaPlugin;
+import tomdangdev.org.testplugin.items.Hyperion;
 
 public final class main extends JavaPlugin {
 
