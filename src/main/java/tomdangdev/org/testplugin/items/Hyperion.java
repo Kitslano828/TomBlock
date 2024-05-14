@@ -44,13 +44,12 @@ public class Hyperion implements CommandExecutor {
         hyperionLore.add("");
         hyperionLore.add(ChatColor.GRAY + "Deals +" + ChatColor.GREEN + "50%" + ChatColor.GRAY + " damage to");
         hyperionLore.add(ChatColor.GRAY + "Withers, Grant " + ChatColor.RED + "+1 Damage");
-        hyperionLore.add(ChatColor.GRAY + "and " + ChatColor.GREEN + "+2" + ChatColor.AQUA + "Intelligence");
+        hyperionLore.add(ChatColor.GRAY + "and " + ChatColor.GREEN + "+2 " + ChatColor.AQUA + "Intelligence");
         hyperionLore.add(ChatColor.GRAY + "per " + ChatColor.RED + "Catacombs " + ChatColor.GRAY + "level");
         hyperionLore.add("");
         hyperionLore.add(ChatColor.GRAY + "Your Catacombs Level: " + ChatColor.RED + "100");
         hyperionLore.add("");
-        hyperionLore.add(ChatColor.GOLD.BOLD + "LEGENDARY DUNGEON SWORD");
-
+        hyperionLore.add(ChatColor.GOLD + "LEGENDARY DUNGEON SWORD");
         hyperionMeta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
         // Add attribute modifier for attack damage
         AttributeModifier damageModifier = new AttributeModifier(UUID.randomUUID(), "generic.attack_damage", 260, AttributeModifier.Operation.ADD_NUMBER);
